@@ -78,15 +78,6 @@ export function Navigation() {
 
             {/* Right Side */}
             <div className="hidden lg:flex items-center space-x-8">
-              <div className="flex items-center space-x-4">
-                <span className="font-['Montserrat'] text-[10px] font-medium uppercase tracking-[0.15em] text-white/60">
-                  EN
-                </span>
-                <span className="text-white/30">|</span>
-                <span className="font-['Montserrat'] text-[10px] font-medium uppercase tracking-[0.15em] text-white/60 hover:text-[#fbbf24] transition-colors cursor-pointer">
-                  ES
-                </span>
-              </div>
               <a
                 href="tel:+233302523984"
                 className="flex items-center space-x-2 font-['Montserrat'] text-sm text-white/90 hover:text-[#fbbf24] transition-colors"

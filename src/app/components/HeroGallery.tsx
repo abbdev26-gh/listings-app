@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronLeft, ChevronRight, Play, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 interface HeroGalleryProps {
@@ -45,14 +45,6 @@ export function HeroGallery({ images, address }: HeroGalleryProps) {
               </p>
             </div>
           )}
-
-          {/* Watch Video Button */}
-          <button className="absolute top-8 right-6 lg:right-12 flex items-center space-x-2 px-6 py-3 bg-transparent border border-white/40 rounded-full backdrop-blur-sm hover:bg-white/10 hover:border-white/60 transition-all group">
-            <Play className="w-4 h-4 text-white group-hover:text-[#fbbf24] transition-colors" />
-            <span className="font-['Montserrat'] text-[11px] font-medium uppercase tracking-[0.15em] text-white">
-              Watch Video
-            </span>
-          </button>
 
           {/* Navigation Arrows */}
           <button
