@@ -67,7 +67,7 @@ export function Footer() {
           transition={{ duration: 0.6 }}
         >
           <h3 className="font-['Cormorant_Garamond'] text-3xl lg:text-4xl font-light text-white mb-4">
-            Join Our Network
+            Join the NM Exclusive Club
           </h3>
           <p className="font-['Montserrat'] text-sm text-white/55 mb-8 max-w-md mx-auto">
             Subscribe to our newsletter for exclusive off-market listings, market reports, and luxury real estate insights.
