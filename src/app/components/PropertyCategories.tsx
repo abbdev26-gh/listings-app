@@ -87,7 +87,7 @@ export function PropertyCategories() {
             </motion.div>
           ))}
         </div>
-      </div
+      </div>
     </section>
   );
 }
