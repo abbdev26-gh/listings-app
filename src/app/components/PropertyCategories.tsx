@@ -80,9 +80,6 @@ export function PropertyCategories() {
                 <p className="font-['Montserrat'] text-sm text-white/70 mb-4">
                   {category.description}
                 </p>
-                <div className="font-['Montserrat'] text-xs uppercase tracking-[0.15em] text-[#fbbf24]">
-                  {category.properties} Properties
-                </div>
               </div>
 
               {/* Hover Border */}
