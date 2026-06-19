@@ -27,13 +27,13 @@ export function CTASection() {
           Whether you're buying, renting, or investing, our digital-driven solutions make property acquisition seamless and professional.
         </p>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-4">
-          <button className="px-10 py-4 bg-[#fbbf24] rounded-lg font-['Montserrat'] text-sm font-semibold uppercase tracking-[0.1em] text-[#1A1A1A] hover:bg-[#D4B87E] transition-all inline-flex items-center space-x-2 group">
+          <a href="tel:+233302523984" className="px-10 py-4 bg-[#fbbf24] rounded-lg font-['Montserrat'] text-sm font-semibold uppercase tracking-[0.1em] text-[#1A1A1A] hover:bg-[#D4B87E] transition-all inline-flex items-center space-x-2 group">
             <span>Give Us a Call</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
-          <button className="px-10 py-4 bg-transparent border border-[#fbbf24] rounded-lg font-['Montserrat'] text-sm font-semibold uppercase tracking-[0.1em] text-[#fbbf24] hover:bg-[#fbbf24]/10 transition-all">
+          </a>
+          <a href="/listings" className="px-10 py-4 bg-transparent border border-[#fbbf24] rounded-lg font-['Montserrat'] text-sm font-semibold uppercase tracking-[0.1em] text-[#fbbf24] hover:bg-[#fbbf24]/10 transition-all">
             Browse Properties
-          </button>
+          </a>
         </div>
 
         {/* Contact Info */}

@@ -13,7 +13,6 @@ import { AmenitiesGrid } from "../components/AmenitiesGrid";
 import { ContactForm } from "../components/ContactForm";
 import { RequestDetailsModal } from "../components/RequestDetailsModal";
 import { ScheduleShowingModal } from "../components/ScheduleShowingModal";
-import { SocialShare } from "../components/SocialShare";
 import { Footer } from "../components/Footer";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -121,8 +120,6 @@ export default function PropertyDetailPage() {
         <AmenitiesGrid amenities={listing.amenities} />
         
         <ContactForm propertyId={listing.id} propertyTitle={listing.title} />
-        
-        <SocialShare />
       </main>
       
       <Footer />
