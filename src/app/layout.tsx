@@ -2,8 +2,32 @@ import type { Metadata } from "next";
 import "../styles/index.css";
 
 export const metadata: Metadata = {
-  title: "Luxury Real Estate Listing UI",
-  description: "Luxury Real Estate Listing UI by Nouvelle Maison",
+  title: "Nouvelle Maison | Luxury Real Estate in Accra, Ghana",
+  description:
+    "Nouvelle Maison is a digital-driven realty solutions provider in Accra, Ghana — offering premium property listings, acquisitions, and design services crafted for exceptional living.",
+  keywords: [
+    "luxury real estate",
+    "Accra",
+    "Ghana",
+    "property listings",
+    "Nouvelle Maison",
+    "homes for sale",
+    "realty",
+  ],
+  openGraph: {
+    title: "Nouvelle Maison | Luxury Real Estate in Accra, Ghana",
+    description:
+      "Discover premium property listings and digital-driven realty solutions in Accra, Ghana.",
+    siteName: "Nouvelle Maison",
+    locale: "en_GH",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nouvelle Maison | Luxury Real Estate in Accra, Ghana",
+    description:
+      "Discover premium property listings and digital-driven realty solutions in Accra, Ghana.",
+  },
 };
 
 export default function RootLayout({
